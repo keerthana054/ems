@@ -1,0 +1,74 @@
+.employee-form-container {
+    background-color: #f3f5ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 80px; 
+}
+
+.employee-form-container h2 {
+    color: #4a4a4a;
+    /* Dark text */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.employee-form-container label {
+    color: #4a4a4a;
+    /* Dark text */
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.employee-form-container input[type="text"],
+.employee-form-container input[type="date"],
+.employee-form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #4a4a4a;
+    /* Dark text */
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.employee-form-container .radio-container {
+    margin-bottom: 20px;
+}
+
+.employee-form-container .radio-container label {
+    margin-right: 15px;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.employee-form-container .radio-container input[type="radio"] {
+    margin-right: 5px;
+}
+
+.employee-form-container button {
+    padding: 12px 24px;
+    margin-right: 10px;
+    background-color: #7e57c2;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.employee-form-container button:last-child {
+    margin-right: 0;
+}
+
+.employee-form-container button:hover {
+    background-color: #5e35b1;
+}

@@ -1,0 +1,19 @@
+.footer-container {
+    background-color: #7e57c2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.footer-container p {
+    margin: 0;
+    font-size: 14px;
+}
