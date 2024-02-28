@@ -8,7 +8,7 @@ function EmployeeList() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/employees');
+        const response = await axios.get('https://ems-azle.onrender.com/employees');
         setEmployees(response.data); 
       } catch (error) {
         console.error('Error fetching data:', error);
