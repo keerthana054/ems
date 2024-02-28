@@ -22,7 +22,7 @@ function EmployeeForm() {
     event.preventDefault();
     if (validateForm()) {
       try {
-        const response = await axios.post('https://ems-azle.onrender.com/employee', {
+        const response = await axios.post('https://ems-azle.onrender.com/employees', {
           name,
           // employee_id: id,
           department,
